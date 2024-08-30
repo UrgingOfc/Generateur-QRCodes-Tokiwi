@@ -45,18 +45,6 @@ Dans ce fichier, vous pouvez modifier les données avec les informations que vou
 
 > [!WARNING]  
 > Dans la configuration, le site ne peut pas avoir une "/" à la fin, si non le lien aura deux "/" et possiblement le QR-Code ne marchera pas.
-## Configuration
-
-Pour utiliser l'application, vous devez d'abord configurer le fichier **config.json** avec les détailes que vous voullez pour que l'application puisse identifier vos identifiants ainsi que le lien à générer pour le QR-Code. Pour ça, on va ouvrir le fichier **config.json**. 
-
-Votre fichier doit se ressembler à ça:
-```json
-{
-    "SiteQRCodes": "https://example.com",
-    "NomTableauIdentifiants": "identifiants"
-}
-```
-Dans ce fichier, vous pouvez modifier les données avec les informations que vous avez besoin, par exemple si dans votre fichier **csv** le tableau avec les identifiants s'appelle **utilisateurs**, vous devez le changer dans la configuration de façon que le programme puisse ensuite identifier le tableau des identifiants.
 
 #### Exemple:
 ```json
@@ -66,8 +54,7 @@ Dans ce fichier, vous pouvez modifier les données avec les informations que vou
 }
 ```
 
-> [!WARNING]  
-> Dans la configuration, le site ne peut pas avoir une "/" à la fin, si non le lien aura deux "/" et possiblement le QR-Code ne marchera pas.
+
 ## Utilisation
 
 ### Façon "Prompt"
