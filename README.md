@@ -17,7 +17,7 @@ Cette application permet que vous faites des QR-Codes vers un lien en se basant 
 Pour installer c'est très simple. Vous devez simplement ouvrir votre terminal et coller cette commande:
 ```bash
 git clone https://github.com/UrgingOfc/Generateur-QRCodes-Tokiwi
-cd Generateur-QRCodes-Tokiwi
+cd Generateur-QRCodes-Tokiwi-master
 ```
 
 Si vous n'avez pas git installé, vous pouvez **l'installer** ou bien tout simplement **télécharger** le **source code** dans votre ordinateur.    
